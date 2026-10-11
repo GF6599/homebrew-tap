@@ -6,25 +6,25 @@ cask "lazytimezone" do
     end
   end
 
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "62e3081cc452024bb9a794642d738fda66228ff5d94d83e7ed2c513edd4c3f4a"
+      sha256 "da3bcb7f912a7e49bb1502a1a65ecc385444e4455fc3a82e8b41fc090bea76c0"
       url "https://github.com/GF6599/lazytimezone/releases/download/v#{version}/lazytimezone_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b6b8192cb46175ee6a7d1710400886190bb0fe6001699a271e3caa3a8a417967"
+      sha256 "27689ea46bbff577027bd67cd624b1b10bdd5d59df898aa3942dada0e1b82be9"
       url "https://github.com/GF6599/lazytimezone/releases/download/v#{version}/lazytimezone_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5db0f3533c35a42d51b6a50079b750fcdb6471bcdf308ada4ca30cd4f26fc447"
+      sha256 "cf16338827beaebf85e92c71406acfbd7d04aecb9e8ddfca93705f1c3d0c87f4"
       url "https://github.com/GF6599/lazytimezone/releases/download/v#{version}/lazytimezone_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d76f6f3cf28e71290a1de8857f347983b609a30effc871a37bf4677f5a97399d"
+      sha256 "7caad504e1e835e4dcd2a4166c0b8e4895066b71399fe9dba44a4fdffb88ba90"
       url "https://github.com/GF6599/lazytimezone/releases/download/v#{version}/lazytimezone_#{version}_linux_amd64.tar.gz"
     end
   end
