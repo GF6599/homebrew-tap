@@ -1,25 +1,25 @@
 class Lazylab < Formula
   desc "Terminal UI for GitLab"
   homepage "https://github.com/GF6599/lazylab"
-  version "1.0.0"
+  version "1.0.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/GF6599/lazylab/releases/download/v1.0.0/lazylab-aarch64-apple-darwin.tar.xz"
-      sha256 "b958dd907961c0dd2cabe2ef9c9ff968e6b108324a43fc368f1ecb8eb0cef0f8"
+      url "https://github.com/GF6599/lazylab/releases/download/v1.0.1/lazylab-aarch64-apple-darwin.tar.xz"
+      sha256 "281510a1f194b76506c1e8387fdd23e0e0f071fb2e00892f5594c70348dcc8f0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/GF6599/lazylab/releases/download/v1.0.0/lazylab-x86_64-apple-darwin.tar.xz"
-      sha256 "5e91c439620ab6de2f7f8fed83181925b9560a503536a29f8d4904a43bba33ff"
+      url "https://github.com/GF6599/lazylab/releases/download/v1.0.1/lazylab-x86_64-apple-darwin.tar.xz"
+      sha256 "9298777cc09cbf260ec3a0794793ca9fc8e355d39122b9ff16274b8b8c29422b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/GF6599/lazylab/releases/download/v1.0.0/lazylab-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "81e047bbe7a296b84f87042205ac8862858e2679ab13acd2696ffa932beb7479"
+      url "https://github.com/GF6599/lazylab/releases/download/v1.0.1/lazylab-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "16f3829c721dd01f3f69e9a18e694729040f7a4971efb95d0697ecb3aa664e8b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/GF6599/lazylab/releases/download/v1.0.0/lazylab-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "3063e6182ab27fac3c381510e5fdbd109bd5454f554df3dda8aa86316c4c4c1e"
+      url "https://github.com/GF6599/lazylab/releases/download/v1.0.1/lazylab-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "92f40a86c52833a35f176cbe9193cba4d8af410af8dd2a9b50305126fe3cf15e"
     end
   end
   license "MIT"
