@@ -6,25 +6,25 @@ cask "mdlive" do
     end
   end
 
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      sha256 "cc448d9d68251594195e50a4a717a9dfa1f3ee5c00b9c6d4ee4f6a3836f3219b"
+      sha256 "92e32127c69f24631f39e6202782e324878a5ff134105992daf4989816d9ec9b"
       url "https://github.com/GF6599/mdlive/releases/download/v#{version}/mdlive_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5a778af4adcae8d39d76430252ee4035378caaaa031a69bb292f55b5f71b3dd7"
+      sha256 "ad2609a59002536b160721441c7b0e11c783d1ea2c9591217640d69dce8644ec"
       url "https://github.com/GF6599/mdlive/releases/download/v#{version}/mdlive_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c0204312842ab9f4f2229ce11837365e4994b1a959581f4b455195ec04946fb8"
+      sha256 "b3761b0f01a2ac1244c34c544ca459559cc7083bbcc2231b4009798a3bc2c083"
       url "https://github.com/GF6599/mdlive/releases/download/v#{version}/mdlive_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "157d66040dae69abf5f8bc2548a355ef755e94848cc9d49b31975053a9f0b90a"
+      sha256 "3893ba003df51ff9048dc53989437af75b417d6d892c60c2ad303267d7099a73"
       url "https://github.com/GF6599/mdlive/releases/download/v#{version}/mdlive_#{version}_linux_amd64.tar.gz"
     end
   end
