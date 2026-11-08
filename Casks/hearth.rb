@@ -6,25 +6,25 @@ cask "hearth" do
     end
   end
 
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     on_arm do
-      sha256 "cfe6fa5a88f2c51c903cf827bf994d7861d8107c13d45f27cea0271cf7ec4ab9"
+      sha256 "09c3d9a9a5f98ab585764a82146bc940db5e4752ab5c3ffaca3c648c5b4da596"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "92f2144d22692dc7a5cf502c2e690bcafdc3a1d089a29a52e95363159a4a2637"
+      sha256 "77dc167ee8fa226ee4984841c7c18b90761a466aa242c438089c6e211c0acfc7"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4af5267224cf80e7dd0d74cd724e2278c6ea284243ceeb0e9bbdac7f1356a4e8"
+      sha256 "147feb49106e02137803c04f7f2a47325f00abdd66cab93cb89e74ba3bb48a73"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "06679b156d46854a3b7dbfd13a34b092e8173ee554e93c182e18e13f38761e6c"
+      sha256 "bfa73d8fb78da76cf42d503a52e82645071bdc6777e2d1350fd8607d6e3af984"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_linux_amd64.tar.gz"
     end
   end
