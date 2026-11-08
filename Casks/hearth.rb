@@ -6,31 +6,31 @@ cask "hearth" do
     end
   end
 
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_arm do
-      sha256 "d083ffb54a11c25a075d370aeff8aa02a147c7df1e7b8363a8b776243690fa57"
+      sha256 "a3cb740dffc94c4724cbe3dd624150807795fa60ed756748794b363c6e5eb271"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f52809e1ff39c15e4c77fe4f7aa4d324e52923f131a3439383986a619b035763"
+      sha256 "745d2886cc513b2333bbe272609aefe2c78b4febe189abb0a4970d3440f79db2"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e483b3fb8695f5a247dae4918d78472a4b0b98220b356fe78de4223887c0ac99"
+      sha256 "d4e73bedd98c3fb5efe98c27d909aafa52bd411e412c988a5b7e951d6124f07f"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "49c2203b194abe37fdceb8489c12b2f95932cea3a2d2fb0918ba343d3132a151"
+      sha256 "d525eb7851cd47f28a47053fdd4dbaac77900b44ce372ec7c1c372fe07e29bd8"
       url "https://github.com/GF6599/hearth/releases/download/v#{version}/hearth_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "hearth"
-  desc "A terminal screensaver of fire, embers, a flock, a bonsai and more"
+  desc "A terminal screensaver with a picker of scenes"
   homepage "https://github.com/GF6599/hearth"
 
   livecheck do
